@@ -62,5 +62,6 @@ body div , button {
     text-wrap: pretty;
     padding: 0 10px 0 10px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
