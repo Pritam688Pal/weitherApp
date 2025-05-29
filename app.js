@@ -5,7 +5,7 @@ const lan = document.querySelector("#Longitude");
 const city = document.querySelector(".city_name");
 const temp = document.querySelector(".temp_val");
 const condition = document.querySelector(".condition_val");
-let url = "https://api.weatherapi.com/v1/current.json?key=50bd1351ea8449a193e123226252805&lang=bn&q="
+let url = "https://api.weatherapi.com/v1/current.json?key=50bd1351ea8449a193e123226252805&q="
 
 btn.addEventListener("click",()=>{
     let defalt = lat.value+','+lan.value;

@@ -50,3 +50,17 @@ body{
 .ip , .btn , .card {
     box-shadow: 2px 2px 20px gray;
 }
+
+body div , button {
+    width: 500px;
+}
+
+.i p {
+    width: 150px;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    text-wrap: pretty;
+    padding: 0 10px 0 10px;
+    display: flex;
+    align-items: center;
+}
